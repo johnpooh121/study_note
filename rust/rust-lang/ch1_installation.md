@@ -25,11 +25,8 @@
   - `cargo run` 로 빌드와 실행 동시에 할 수 있음
   - `cargo check` 로 실행파일은 생성하지 않되 컴파일이 되는지 체크 가능 (큰 프로젝트에서 사용)
 
-
-## 4. dd
-
 - [Ch1. Installation and Environment Setting](#ch1-installation-and-environment-setting)
   - [1. Installation (for windows)](#1-installation-for-windows)
   - [2. Update](#2-update)
   - [3. Starting a project](#3-starting-a-project)
-  - [4. dd](#4-dd)
+  - [4. toc](#4-toc)
