@@ -12,3 +12,6 @@ hello!
 - [ ] aws, kubernetes, docker - rebellion, toss, devsisters
 - [ ] istio, jaeger, datadog apm - toss, devsisters
 - [ ] python, go, react - toss, devsisters
+- [ ] OpenStack - rebellion
+- [ ] spring으로 간단한 서비스 만들기
+- [ ] service mesh와 쿠버네티스로 조금 큰 서버 만들고 많은 입력 생성해보기
