@@ -57,6 +57,15 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 ```
 
+ddl-auto로 가능한 값은 다음과 같다.
+ - create : 앱 가동 후 SessionFactory가 실행될 때 기존 테이블을 지우고 새로 생성
+ - create-drop : create처럼 첫 실행 때 초기화 후 앱 종료 시 테이블을 지움
+ - update : SessionFactory가 실행될 때 객체를 검사해서 스키마를 갱신, 기존 데이터는 유지
+ - validate : update처럼 객체를 검사하지만 스키마는 그대로 둔다. 테이블과 객체의 정보가 다르면 에러 발생
+ - none : ddl-auto 기능을 사용하지 않는다
+
+보통 개발 시에는 create, create-drop, update를, 운영 시에는 none이나 validate를 사용한다.
+
 ## 6. Entity 등록
 
 Entity로 사용할 객체(ex: Product)를 다음과 같이 선언해준다.
