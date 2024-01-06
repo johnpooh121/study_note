@@ -3,7 +3,7 @@
 ## 스프링 부트 동작 방식
 
 `spring-boot-starter-web` 모듈을 사용하면 톰캣을 사용하는 스프링 MVC 구조 기반으로 동작한다.
-![Alt text](image-2.png)
+![Alt text](images/image-2.png)
 
 서블릿(Servelet)은 클라이언트의 요청을 처리하고 결과를 반환하는 자바 웹 프로그래밍 기술이다. 서블릿은 서블릿 컨테이너에서 관리하며(ex : 서블릿 생성), 서블릿 객체는 싱글톤 패턴으로 관리된다.
 
@@ -29,7 +29,7 @@ REST 아키텍쳐를 구현하는 웹 서비스를 RESTful하다고 말한다.
 
 URI는 소문자로 작성하고, 언더바 대신 하이픈을 사용한다.
 
-![Alt text](image-3.png)
+![Alt text](images/image-3.png)
 
 ## References
 

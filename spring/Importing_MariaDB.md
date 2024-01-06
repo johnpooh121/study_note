@@ -26,7 +26,7 @@ JPA는 개발자 대신 적절한 SQL을 생성하고 데이터베이스를 조�
 
 ### 영속성 컨텍스트
 영속성 컨텍스트(Persistence Context)는 애플리케이션의 엔티티와 DB의 레코드 사이 괴리를 해소하고 객체를 보관한다. 캐시로서의 기능도 존재한다.
-![Alt text](image-5.png)
+![Alt text](images/image-5.png)
 - 각 엔티티는 New, Detached, Managed, Removed 의 상태로 구분됨
 - 엔티니 매니저는 데이터베이스에 접근해서 CRUD를 수행  
 - Spring Data JPA를 사용하면 Repository를 이용해서 DB에 접근하는데, 이 때 엔티티매니저를 사용하는 코드를 볼 수 있음  

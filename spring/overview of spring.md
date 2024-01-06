@@ -18,9 +18,9 @@ Summary of the Book '스프링 부트 핵심 가이드' (author : 장정우)
 
 #### 3. 관점 지향 프로그래밍 (AOP)
 
-![Alt text](image.png)
+![Alt text](images/image.png)
 
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
 원래의 OOP에서 비즈니스 로직을 제외한 중복되는 부분들인 로깅, 트랜잭션 등의 로직을 모듈화해 삽입. 삽입 방식으로는 컴파일 과정에 삽입하는 방식, 바이트코드를 메모리에 로드할 때 삽입하는 방식, 프록시 패턴을 이용한 방식이 있고 스프링은 프록시 패턴을 이용한다. 
 

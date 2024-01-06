@@ -45,7 +45,7 @@ public String getRequestParam1(
 자세한 내용은 https://springdoc.org/#springdoc-openapi-core-properties 참고
 
 - ### Execution Example
-![Alt text](image-4.png)
+![Alt text](images/image-4.png)
 위 예시처럼 사이트 내에서 API의 테스트도 가능하다
 
 
