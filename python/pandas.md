@@ -10,3 +10,6 @@
  - list처럼 .loc[::-1]로 row를 뒤집을 수 있다
  - head나 tail은 추출 길이를 1로 해도 결과가 single row가 아니라 DF다
    - 그냥 iloc을 쓰자
+ - iloc과 loc의 중요한 차이
+   - loc은 기본적으로 라벨 기반이기 때문에 row를 a:b로 접근하면 [a:b]를 의미
+   - 하지만 iloc은 인덱스 기반이며 a:b는 [a:b)를 의미
