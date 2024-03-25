@@ -24,11 +24,54 @@
 
 ## 모듈 검색 순서
 
-import spam 시
+import `모듈이름` 시
 
 먼저 `sys.builtin_module_names` 에서 빌트인 모듈에서 찾아봄
 
 그 후에는 `sys.path`를 찾아봄
 - sys.path는 폴더 이름들의 배열
   - cwd나 input 스크립트의 위치
-  - 
+  - PYTHONPATH
+  - installation-dependent default
+
+## __pychache__
+
+각 모듈의 컴파일된 버전을 캐시
+
+## `dir()`
+
+현재까지 나온 모든 module, var, func의 name을 출력
+
+## Package
+
+디렉토리가 패키지로 취급되기 위해서는 `__init__.py`필요
+
+submodule은 `.`으로 접근
+
+예시 패키지 구조(소리 처리 라이브러리)
+
+```
+sound/                          Top-level package
+      __init__.py               Initialize the sound package
+      formats/                  Subpackage for file format conversions
+              __init__.py
+              wavread.py
+              wavwrite.py
+              aiffread.py
+              aiffwrite.py
+              auread.py
+              auwrite.py
+              ...
+      effects/                  Subpackage for sound effects
+              __init__.py
+              echo.py
+              surround.py
+              reverse.py
+              ...
+      filters/                  Subpackage for filters
+              __init__.py
+              equalizer.py
+              vocoder.py
+              karaoke.py
+              ...
+```
