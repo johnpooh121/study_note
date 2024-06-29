@@ -1,0 +1,15 @@
+# kirchhoff(키르히호프) 정리
+
+그래프의 스패닝 트리 개수를 셀 때 사용
+
+## summary
+
+그래프 G의 스패닝 트리의 개수는 G의 라플라스 행렬(https://en.wikipedia.org/wiki/Laplacian_matrix) 의 임의의 minor행렬의 determinant이다.
+
+### 라플라스 행렬(그래프)
+
+L = A - B
+
+A(degree matrix) : 대각 성분이 가 노드의 degree, 나머지는 0
+
+B(adjacency matrix) : 대각 성분은 0, 나머지 경우는 Aij에 대해서 i와 j사이 엣지가 있으면 1, 아니면 0
