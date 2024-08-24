@@ -29,3 +29,15 @@ for(long long i=0;i<(long long)vec.size()-1;i++){
 }
 ```
 
+## 2. unordered_set
+
+unordered_ 는 해시 기반 동작, 단순 자료형이 아닌 경우 해시함수 지정이 필요
+
+e.g. `pair<int,int>`
+```cpp
+struct pair_hash {
+    inline std::size_t operator()(const std::pair<int,int> & v) const {
+        return v.first*1e5+v.second;
+    }
+};
+```
