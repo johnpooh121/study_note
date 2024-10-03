@@ -19,3 +19,5 @@ module을 포함할 수 있음
 - ### package
   - bundle of crates that provides functionality
   - main.rs와 lib.rs 둘다 있으면 crate가 2개인 것
+
+자세한 내용은 https://doc.rust-lang.org/cargo/reference/manifest.html, https://doc.rust-lang.org/cargo/appendix/glossary.html#module 참고하면 빠른 이해가 가능
